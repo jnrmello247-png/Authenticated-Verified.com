@@ -1,5 +1,5 @@
 # Authenticated-Verified.com
-Welcome to Authenticated.com 
+Welcome To Authenticated.Com 
 Protecting The History,Legacy & Culture Of The Reggae Dubplate Sound Clash Fraternity
 ## About 
 The first watermarking and verification ecosystem built specifically for the Reggae Sound Systems, Artists & Fans of the Reggae & Dancehall Dubplate Sound Clash World!
