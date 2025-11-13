@@ -58,7 +58,8 @@ To build a trusted ecosystem that:
 
 ---
 
-## 🧩 System Architecture (MVP)Frontend (Next.js / React)
+## 🧩 System Architecture (MVP)
+Frontend (Next.js / React)
 │
 ├── Mobile App (React Native / Expo)
 │ └── Records dubs and signs hashes locally
@@ -70,3 +71,4 @@ To build a trusted ecosystem that:
     ├── ML Service (AI Detection + Fingerprint)
     └── Payments (Stripe / Crypto Split)
 
+---
