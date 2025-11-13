@@ -63,3 +63,36 @@ Multi-layered verification:
 
 ## 🧩 System Architecture (MVP)
 
+
+**Database:** PostgreSQL  
+**Storage:** S3-compatible (e.g., AWS, DigitalOcean Spaces)  
+**Crypto:** WebCrypto / Node crypto / libsodium  
+**Fingerprinting:** Chromaprint / AcoustID  
+**AI Detection (optional):** Custom classifier trained on reggae vocals and synthetic voice patterns  
+
+---
+
+## 🧪 Verification Flow
+
+1. Artist records dub via Dub Auth app  
+2. App computes SHA-256 hash of the raw file  
+3. Artist’s private key signs the hash  
+4. Dub is uploaded to backend with signature + metadata  
+5. Backend verifies:
+   - Signature validity (artist public key)
+   - Fingerprint match
+   - AI-sus score (0–1)
+6. Dub receives authenticity label:
+   - ✅ **Verified Original** (signature valid)
+   - ⚠️ **Needs Review** (no signature or uncertain)
+   - ❌ **Rejected** (AI or impersonation detected)
+
+---
+
+## 💡 Why This Matters
+Dubplate culture is **oral history, community, and craft** — a living legacy passed through voice, not code.  
+Dub Auth ensures that **no AI clone or fake can replace the real artists who built the sound**.
+
+---
+
+## 📦 Repository Structure
