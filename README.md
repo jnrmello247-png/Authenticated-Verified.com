@@ -72,3 +72,7 @@ Frontend (Next.js / React)
     └── Payments (Stripe / Crypto Split)
 
 ---
+git clone https://github.com/yourusername/dub-auth.git
+cd dub-auth
+
+---
