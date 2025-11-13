@@ -96,3 +96,29 @@ Dub Auth ensures that **no AI clone or fake can replace the real artists who bui
 ---
 
 ## 📦 Repository Structure
+
+---
+
+## ⚙️ Quick Start (Developer Setup)
+
+### Requirements
+- Node.js 20+  
+- PostgreSQL 15+  
+- Python 3.10+ (for ML service)
+- AWS account or S3-compatible storage
+
+### Setup
+```bash
+# 1. Clone
+git clone https://github.com/yourusername/dub-auth.git
+cd dub-auth
+
+# 2. Install dependencies
+npm install
+
+# 3. Create .env file
+cp .env.example .env
+# (add your DB_URL, S3 keys, etc.)
+
+# 4. Run dev server
+npm run dev
