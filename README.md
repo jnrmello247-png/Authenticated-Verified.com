@@ -122,3 +122,7 @@ cp .env.example .env
 
 # 4. Run dev server
 npm run dev
+
+---
+
+Would you like me to generate a **version that includes badges and setup instructions for a specific tech stack** (for example: Node.js + Next.js + PostgreSQL), so you can use it immediately when you push to GitHub?
