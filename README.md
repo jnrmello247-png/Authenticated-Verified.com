@@ -1,5 +1,6 @@
 # 🔊 Dub Auth — Protecting the Legacy of Reggae & Dancehall Dubplate Culture  
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/dub-auth)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/jnrmello247-png/dub-auth)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
@@ -8,10 +9,11 @@
 ## 🌍 About  
 **Dub Auth** (formerly **Authenticated-Verified.com**) continues the mission to **protect the history, legacy, and culture of the Reggae Dubplate and Sound Clash fraternity**.
 
-It is the **first watermarking and verification ecosystem** built specifically for:
+It is the **first audio-watermarking and verification platform** built specifically for:
+
 - Reggae & Dancehall Sound Systems  
 - Artists & Producers  
-- Fans and Collectors of Dub Culture  
+- Collectors & Fans of Dub Culture  
 
 ---
 
@@ -21,58 +23,58 @@ To **preserve and protect** the authentic voices of Reggae and Dancehall artists
 ---
 
 ## 🧠 Vision  
-To build a trusted ecosystem that:
-- **Verifies authenticity** of dubplates (no AI impersonation)
-- **Protects artists’ voices and rights**
-- **Markets and monetizes** both artists and sound systems
-- **Documents and celebrates** Reggae & Dancehall culture worldwide
+Dub Auth aims to build a trusted global ecosystem that:
+
+- **Verifies authenticity** of dubplates (no AI impersonation)  
+- **Protects artists’ rights & voices**  
+- **Creates new revenue pathways** for artists and sound systems  
+- **Documents and celebrates** Reggae & Dancehall culture worldwide  
 
 ---
 
 ## 🚀 MVP Features  
 
 ### 🎤 Artist Verification  
-- Verified artist profiles with cryptographic signing keys  
-- Optional manual or community verification  
+- Verified artist profiles  
+- Cryptographic signing keys  
+- Optional manual/community verification  
 
 ### 🎧 Dub Upload & Provenance  
-- Upload or record dubs via official mobile/web app  
-- Compute and store **SHA-256 hash** + **audio fingerprint**  
-- Capture metadata: artist, system, timestamp, and signature  
+- Upload or record dubs via mobile or web  
+- Generate **SHA-256 hash + audio fingerprint**  
+- Record metadata: artist → sound system → timestamp → signature  
 
 ### ✅ Authenticity Check  
 - Digital signature validation  
 - Audio fingerprint matching  
-- AI voice-clone detection (ML classifier)  
+- AI voice-clone detection (ML model)  
 - Human moderation fallback  
 
 ### 🏆 Marketplace  
-- Artists accept commissions and deliver authentic dubs  
-- DJs and sound systems order verified dubs  
-- Escrow payments and automatic commission split  
+- Artists accept commissions  
+- Sound systems order verified dubs  
+- Escrow payments + automatic commission split  
 
 ### 🔒 Transparency & Rights  
-- Full audit trail for every dub  
+- Complete audit trail  
 - Clear ownership & licensing  
-- Blockchain/timestamp anchoring for tamper-evidence  
+- Optional blockchain/timestamp anchoring  
 
 ---
 
-## 🧩 System Architecture (MVP)
-Frontend (Next.js / React)
-│
-├── Mobile App (React Native / Expo)
-│ └── Records dubs and signs hashes locally
-│
-└── Backend API (Node.js / FastAPI)
-    ├── Auth & Identity (Artists / DJs)
-    ├── Audio Upload (S3 / Cloud Storage)
-    ├── Signature Verification
-    ├── ML Service (AI Detection + Fingerprint)
-    └── Payments (Stripe / Crypto Split)
+## 🧩 MVP System Architecture  
 
----
-git clone https://github.com/yourusername/dub-auth.git
-cd dub-auth
+```mermaid
+graph TD
+    A[Frontend - Next.js / React] --> B[Backend API - Node.js / FastAPI]
+    A --> C[Mobile App - React Native / Expo]
 
----
+    C --> D[Local Audio Recording + Hash Signing]
+
+    B --> E[Audio Upload - S3/Cloud Storage]
+    B --> F[Signature Verification Service]
+    B --> G[ML Service - Audio Fingerprint + AI Detection]
+    B --> H[Payments - Stripe / Crypto Split]
+
+    G --> I[AI Voice Clone Detection]
+    G --> J[Audio Fingerprint Database]
