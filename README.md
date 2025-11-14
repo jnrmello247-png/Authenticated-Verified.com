@@ -78,4 +78,7 @@ graph TD
 
     G --> I[AI Voice Clone Detection]
     G --> J[Audio Fingerprint Database]
-
+---
+📦 Installation
+git clone https://github.com/jnrmello247-png/dub-auth.git
+cd dub-auth
